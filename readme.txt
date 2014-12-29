@@ -12,8 +12,9 @@ Stable tag: trunk
 Penguin Integration allows you to easily add Penguin buttons to your site so you can start accepting Apple Pay today.
 
 Easily add the Penguin button using our 'pengiun' shortcode.
+This plugin will generate the shortcode needed for each product, so you just need to copy paste.
 
-Example
+Example shortcode:
 `[penguin productid='PRODUCT_ID']`
 
 
@@ -23,22 +24,28 @@ Example
 1. Upload the entire penguin-integration folder to your wp-content/plugins/ directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 1. Go to Settings>>Penguin
-1. Login to Penguin in the settings page
-1. Configure any other options
-1. Insert the Penguin shortcodes in any post or page.
+1. Download your products by logging in to Penguin on the settings page
+1. Copy and paste the Penguin shortcodes in any post or page.
 
 == Frequently Asked Questions ==
 
-*How do my customer use Penguin?*
+*What is Penguin?*
+
+Penguin is a service that allows your customers to pay using Apple Pay.
+This is done by redirecting the payment request to their iPhone.
+Learn more at getpenguin.com.
+
+*How do my customers use Penguin?*
 
 After clicking the button, the customer will enter their phone number.
 First time users will recieve a text with a link to download our app.
 Repeat users will get a notification on their phone.
-In the app, your customer will use their finger to authorize the payment.
+In the app, your customer will use their touch ID to authorize the payment.
 
 *What information do I get from my customer?*
 
-Apple Pay does not provide any information about the customer.
+When you create your products on getpenguin.com, you'll specify what information you want from the customer.
+When the customer completes their transaction, the requested information will be available online.
 
 *How many Penguin buttons can I place in a post or page?*
 
