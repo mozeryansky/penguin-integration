@@ -2,7 +2,7 @@
     <h2>Penguin Integration</h2>
     
     <?php if(isset($error)){ ?>
-    <div class="error"><?=$error?></div>
+    <div class="error"><?=$error?><br />Please try again.</div>
   	<?php } ?>
   	
   	<h3>
