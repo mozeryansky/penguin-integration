@@ -1,11 +1,13 @@
-== Penguin Integration ==
+=== Penguin Integration ===
 
 Contributors: mozeryansky
+Donate link: http://www.getpenguin.com/
 Tags: penguin, apple pay, buy button, ecommerce
-
 Requires at least: 4.1
 Tested up to: 4.1
 Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
@@ -67,6 +69,8 @@ Contact us on getpenguin.com
 * First release of the plugin
 
 == Screenshots ==
+
+1. Settings and Shortcode generator
 
 == Documentation ==
 
