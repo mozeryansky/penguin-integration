@@ -17,6 +17,7 @@ This plugin will generate the shortcode needed for each product, so you just nee
 Example shortcode:
 `[penguin productid='PRODUCT_ID']`
 
+Visit getpenguin.com for more information.
 
 == Installation ==
 
