@@ -19,7 +19,7 @@
     <h2>Penguin Integration</h2>
     
     <?php if(isset($error)){ ?>
-    <div class="error"><?=$error?><br />Please try again.</div>
+    <div class="error"><?php echo $error; ?><br />Please try again.</div>
   	<?php } ?>
   	
   	<h3>
@@ -36,7 +36,7 @@
         <table cellpadding="2">
             <tr>
                 <td align="right"><label for="email">Email</label></td>
-                <td><input type="email" placeholder="Email" name="penguin_email" value="<?=isset($email)?$email:''?>"  required="required"></td>
+                <td><input type="email" placeholder="Email" name="penguin_email" value="<?php echo isset($email)?$email:''; ?>"  required="required"></td>
             </tr>
             <tr>
                 <td align="right"><label for="password">Password</label></td>
@@ -56,7 +56,7 @@
     <br>
     
     <?php if(isset($lastDownload)){ ?>
-    <div>Last download: <?=$lastDownload?></div>
+    <div>Last download: <?php echo $lastDownload; ?></div>
     <?php } ?>
     
     <h3>Products</h3>
@@ -70,10 +70,10 @@
         <?php foreach($products as $product){ ?>
         <tr>
             <td>
-                <a href="http://getpenguin.com/products/edit?productId=<?=$product['id']?>" target="_blank"><?=$product['name']?></a>
+                <a href="http://getpenguin.com/products/edit?productId=<?php echo $product['id']; ?>" target="_blank"><?php echo $product['name']; ?></a>
             </td>
             <td>
-                <pre>[penguin productid='<?=$product['id']?>']</pre>
+                <pre>[penguin productid='<?php echo $product['id']; ?>']</pre>
             </td>
         </tr>
         <?php } ?>

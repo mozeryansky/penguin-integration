@@ -102,7 +102,7 @@ class PenguinIntegration
     
         ob_start();
 ?>
-        <iframe src="http://getpenguin.com/iframe?productId=<?=$productId?>&wp" width="190px" height="100px"></iframe>
+        <iframe src="http://getpenguin.com/iframe?productId=<?php echo $productId; ?>&wp" width="190px" height="100px"></iframe>
 <?php
         $html = trim(ob_get_contents());
         ob_end_clean();
