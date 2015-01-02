@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Penguin Integration allows you to easily add Penguin buttons to your site so you can start accepting Apple Pay today.
 
-Easily add the Penguin button using our 'pengiun' shortcode.
+Easily add the Penguin button using our 'penguin' shortcode.
 This plugin will generate the shortcode needed for each product, so you just need to copy paste.
 
 Example shortcode:
@@ -26,7 +26,7 @@ Visit getpenguin.com for more information.
 1. Unzip the Penguin Integration plugin download
 1. Upload the entire penguin-integration folder to your wp-content/plugins/ directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
-1. Go to Settings>>Penguin
+1. Go to Settings -> Penguin
 1. Download your products by logging in to Penguin on the settings page
 1. Copy and paste the Penguin shortcodes in any post or page.
 
@@ -81,3 +81,5 @@ Wherever you want a Penguin button to appear, add a shortcode. When you view you
 *Shortcode Example*
 
 `[penguin productid='PRODUCT_ID']`
+
+Visit the settings page to have the shortcodes generated for each product. From there you can copy and paste the shortcodes into your posts or pages.
