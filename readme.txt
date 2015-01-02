@@ -9,6 +9,8 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Penguin Integration allows you to easily add Penguin buttons to your site so you can start accepting Apple Pay today.
+
 == Description ==
 
 Penguin Integration allows you to easily add Penguin buttons to your site so you can start accepting Apple Pay today.
