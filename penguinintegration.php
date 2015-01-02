@@ -2,7 +2,7 @@
 /*
 Plugin Name: Penguin Integration
 Plugin URI: http://getpenguin.com/
-Description: Penguin Integration allows you to easily add Penguin buttons to your site so you can start accepting Apple Pay today. To begin, login on the <a href="./options-general.php?page=penguin-integration" target="_self" >settings page</a>.
+Description: Penguin Integration allows you to easily add Penguin buttons to your site so you can start accepting Apple Pay today. To begin, login on the <a href="./options-general.php?page=penguin-integration" target="_self" >settings</a> page.
 Version: 1.0
 Author: Penguin
 Author URI: http://getpenguin.com
